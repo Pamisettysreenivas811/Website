@@ -38,7 +38,7 @@ function Services() {
                   human society.thus digital things will give the product we can
                   check online.
                 </p>
-                <a href="" className="btn btn-primary">
+                <a href="/" className="btn btn-primary">
                   Read More
                 </a>
               </div>
@@ -59,7 +59,7 @@ function Services() {
                   is usually an expert or an experienced professional in a
                   specific field and has a wide knowledge.
                 </p>
-                <a href="" className="btn btn-primary">
+                <a href="/" className="btn btn-primary">
                   Read More
                 </a>
               </div>
@@ -81,7 +81,7 @@ function Services() {
                   of your company. Where you cannot reach personally, your
                   website can in a matter of seconds to reach.
                 </p>
-                <a href="" className="btn btn-primary">
+                <a href="/" className="btn btn-primary">
                   Read More
                 </a>
               </div>
@@ -106,7 +106,7 @@ function Services() {
                   message or convey a specific idea. create visually appealing
                   and impactful designs.
                 </p>
-                <a href="" className="btn btn-primary">
+                <a href="/" className="btn btn-primary">
                   Read More
                 </a>
               </div>
@@ -129,7 +129,7 @@ function Services() {
                   the entire mobile app development process from ideation and
                   concept to delivery, and to ongoing ongoing support.
                 </p>
-                <a href="" className="btn btn-primary">
+                <a href="/" className="btn btn-primary">
                   Read More
                 </a>
               </div>
@@ -152,7 +152,7 @@ function Services() {
                   to serve your organisation as well and would like to be a part
                   of your growth journey.
                 </p>
-                <a href="" className="btn btn-primary">
+                <a href="/" className="btn btn-primary">
                   Read More
                 </a>
               </div>
