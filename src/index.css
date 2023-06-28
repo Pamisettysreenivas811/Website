@@ -7,7 +7,109 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body ,html{
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  color: #222;
+}
+
+.logo,
+.img1 {
+  height: 100px;
+  width: 100px;
+}
+
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+
+}
+
+/*.carousel-caption
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
+
+/*.carousel-caption h3{
+  font-size: 500%;
+  text-shadow: 1px 1px 10px #000;
+}
+*/
+.btn-primary:hover
+{
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+
+.fa-facebook
+{
+  color: #3b5998;
+}
+
+.fa-twitter{
+  color: #00aced;
+}
+.fa-google-plus-g
+{
+  color: #dd4b39;
+}
+.fa-instagram
+{
+  color: #d62976 ;
+}
+.fa-youtube
+{
+  color: #bb0000;
+}
+
+.container-fluid{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
+.container-margin {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  
+}
+
+@media screen and (max-width: 680px) {
+  .carousel-caption {
+    top: 0;
+  }
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption .btn {
+    padding: .3rem 1rem;
+    font-size: 1rem;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-item {
+    height: 330px;
+  }
+}
+
+
+/*max-width:680px*/
+
+@media screen and (max-width: 420px) {
+  .carousel-item {
+    height: 220px;
+  }
 }
