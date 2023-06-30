@@ -5,7 +5,7 @@ function ConnectUs() {
     <div className="container-fluid container-margin">
       <div className="row text-center padding">
         <div className="col-12 mt-5">
-          <h2>Connect</h2>
+          <h1>Connect</h1>
         </div>
         <div className="col-12 social padding mt-4">
           <a

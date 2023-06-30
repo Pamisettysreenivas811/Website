@@ -1,23 +1,32 @@
 import React from "react";
 
-import img4 from './images/img4.jpeg';
+import img4 from "./images/img4.jpeg";
 
-import img5 from './images/img5.jpeg';
+import img5 from "./images/img5.jpeg";
 
-import img6 from './images/img6.jpeg';
+import img6 from "./images/img6.jpeg";
 
-import img7 from './images/img7.jpeg';
+import img7 from "./images/img7.jpeg";
 
-import img8 from './images/img8.jpeg';
+import img8 from "./images/img8.jpeg";
 
-import img9 from './images/img9.jpeg';
+import img9 from "./images/img9.jpeg";
 
-import img10 from './images/img10.jpeg';
-
+import img10 from "./images/img10.jpeg";
 
 function Services() {
   return (
     <>
+      <section id="services">
+        <div className="container-fluid container-margin">
+          <div className="row text-center">
+            <div className="col-12">
+              <h1 className="display-4 mt-5">SERVICES</h1>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="container-fluid container-margin my-4">
         <div className="row padding">
           <div className="col-md-4">
@@ -46,11 +55,7 @@ function Services() {
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img
-                src={img5}
-                className="card-img-top"
-                alt=""
-              />
+              <img src={img5} className="card-img-top" alt="" />
               <div className="card-body">
                 <h4 className="card-title">IT CONSULTING</h4>
                 <p className="card-text">
