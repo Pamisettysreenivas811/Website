@@ -1,8 +1,8 @@
 import React from "react";
 
-import img1 from './images/img1.jpeg';
-import img2 from './images/img2.jpeg';
-import img3 from './images/img3.jpg';
+import img1 from "./images/img1.jpeg";
+import img2 from "./images/img2.jpeg";
+import img3 from "./images/img3.jpg";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -37,27 +37,19 @@ function Home() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
-              src={img1}
-              className="d-block w-100"
-              alt="..."
-            />
+            <img src={img1} className="d-block w-100" alt="..." />
             <div className="carousel-caption">
               <h3 className="display-2 text-white">
                 We are leading full- service provider Business solutions for
                 growing enterprises
               </h3>
-              <Link to = "" className="btn btn-primary">
+              <Link to="/about" className="btn btn-primary">
                 Read More
               </Link>
             </div>
           </div>
           <div className="carousel-item">
-            <img
-              src={img2}
-              className="d-block w-100"
-              alt="..."
-            />
+            <img src={img2} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
             <img src={img3} className="d-block w-100" alt="..." />
@@ -69,7 +61,10 @@ function Home() {
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -78,7 +73,10 @@ function Home() {
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
@@ -87,7 +85,9 @@ function Home() {
         <div className="container-fluid padding mt-5">
           <div className="row welcome text-center">
             <div className="col-12 mb-4">
-              <h1 className="display-4">Welcome to Aryavart Staffing Solutions</h1>
+              <h1 className="display-4">
+                Welcome to Aryavart Staffing Solutions
+              </h1>
             </div>
             <hr />
             <div className="col-12">

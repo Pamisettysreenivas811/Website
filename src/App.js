@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import WhyUs from "./components/WhyUs";
+import MedicalCardMore from "./components/MedicalCardMore";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" exact element={<AboutUs />}></Route>
         <Route path="/services" exact element={<Services />}></Route>
         <Route path="/whyus" exact element={<WhyUs/>}></Route>
+        <Route path="/services/medicalcode" exact element={<MedicalCardMore/>}></Route>
       </Routes>
 
       <ConnectUs />
