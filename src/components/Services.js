@@ -16,7 +16,7 @@ let data = [
     description:
       "You can simply acquire new clients via ex. Social Media channels and with the change and evolution of modern technologies, small and medium businesses are doing everything they can to keep up, which can be said true for the rest of human society.thus digital things will give the product we can check online.",
     height: "255px",
-    imgpath: "img4",
+    imgpath: img4,
   },
    {
     title: "IT CONSULTING",
