@@ -16,21 +16,21 @@ let data = [
     description:
       "You can simply acquire new clients via ex. Social Media channels and with the change and evolution of modern technologies, small and medium businesses are doing everything they can to keep up, which can be said true for the rest of human society.thus digital things will give the product we can check online.",
     height: "255px",
-    imgpath: "img4",
+    imgpath: img4,
   },
    {
     title: "IT CONSULTING",
     description:
       "We can assist you in ensuring that your IT is able to quickly and efficiently adapt to new business requirements.Consultant is usually an expert or an experienced professional in a specific field and has a wide knowledge.",
     height: "280px" ,
-    imgpath: "img5",
+    imgpath: img5,
   },
   {
     title: "Medical Coding Services",
     description:
       "Coding service is a key activity that has a direct impact on the financial status of your practice. We have specialized expertise, niche focus, and infrastructure to support your requirements.Get access to certified coders with experience in outpatient, inpatient, & emergency department coding.",
     height: "255px",
-    imgpath: "img6",
+    imgpath: img6,
     readmoreUrl: "/services/medicalcode"
   },
   {
@@ -38,21 +38,21 @@ let data = [
     description:
       "Aryavart design and create fields involved in the planning, creation, and arrangement of visual elements to communicate a message or convey a specific idea. create visually appealing and impactful designs.",
     height: "330px",
-    imgpath: "img7",
+    imgpath: img7,
   },
   {
     title: "Mobile development",
     description:
       " We offer a full cycle of application design, integration and management services. Whether it is a consumer oriented app or a transformative enterprise-class solution, the company leads the entire mobile app development process from ideation and concept to delivery, and to ongoing ongoing support.",
     height: "280px",
-    imgpath:"img8",
+    imgpath:img8,
   },
   {
     title: "Staffing",
     description:
       "We are serving various industries and startups in Hospitality, Education, Edtech, E-Commerce, and many more. Where we cater them from entry-level to mid-level positions. We would be glad to serve your organisation as well and would like to be a part of your growth journey.",
     height: "280px",
-    imgpath: "img9",
+    imgpath: img9,
   },
 ];
 
